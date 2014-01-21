@@ -1,0 +1,3 @@
+[submodule "packages/bootstrap3-sass"]
+	path = packages/bootstrap3-sass
+	url = git@github.com:reywood/meteor-bootstrap3-sass.git

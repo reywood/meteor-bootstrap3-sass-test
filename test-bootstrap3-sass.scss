@@ -1,0 +1,9 @@
+@import 'packages/bootstrap3-sass/bootstrap';
+
+.my-class {
+	font-size: 7em;
+}
+
+.my-retina-img {
+	@include img-retina('/packages/bootstrap3-sass/bootstrap/file-1x.png', 'file-2x.png', 10px, 20px);
+}
