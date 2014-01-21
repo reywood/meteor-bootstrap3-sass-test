@@ -1,7 +1,7 @@
 meteor-bootstrap3-sass-test
 ===========================
 
-Meteor site for testing the bootstrap3-sass meteorite package
+Meteor site for testing the [bootstrap3-sass](https://github.com/reywood/meteor-bootstrap3-sass) meteorite package
 
 ---------------------------------------
 
