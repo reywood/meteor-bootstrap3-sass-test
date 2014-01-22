@@ -5,12 +5,20 @@ Meteor site for testing the [bootstrap3-sass](https://github.com/reywood/meteor-
 
 ---------------------------------------
 
-To set up for the first time:
+To clone and set up for the first time:
 
 ```sh
 $ git clone https://github.com/reywood/meteor-bootstrap3-sass-test.git
 $ cd meteor-bootstrap3-sass-test
 $ git submodule update --init --recursive packages/bootstrap3-sass
+$ cd packages/bootstrap3-sass
+$ git checkout -b develop --track origin/develop
+```
+
+To simply run the app and see if everything looks kosher:
+
+```sh
+$ mrt
 ```
 
 To run package tests, execute:
