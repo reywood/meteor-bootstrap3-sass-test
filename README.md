@@ -13,6 +13,8 @@ $ cd meteor-bootstrap3-sass-test
 $ git submodule update --init --recursive packages/bootstrap3-sass
 $ cd packages/bootstrap3-sass
 $ git checkout -b develop --track origin/develop
+$ cd ../..
+$ mrt add bootstrap3-sass
 ```
 
 To simply run the app and see if everything looks kosher:
